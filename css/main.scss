@@ -20,7 +20,12 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting"
+    "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap"
 ;
+body {
+  padding-top: 50px;
+}
+footer{
+  text-align: right;
+  padding: 20px;
+}
