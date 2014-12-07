@@ -1,16 +1,18 @@
 .intro{
   height: 50%;
   text-align: center;
-  background-image: url('/img/dog-hero.jpg');
+  background-image: url('/img/dog_hero.jpg');
   background-size: cover;
   background-position: center 10%;
   background-repeat: no-repeat;
   .filter{
-    background: rgba(#e2f2f9, .8);
     height: 100%;
   }
   .container{
-    height: 50%;
+    background: rgba(#fff, .73);
+    height: 60%;
+    width: 100%;
+    padding: 2% 0;
   }
 }
 
