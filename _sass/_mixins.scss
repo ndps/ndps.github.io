@@ -1,0 +1,11 @@
+//grid shortcut mixin
+
+$whale:     unquote("min-width: #{$screen-lg-min}");
+$shark:     unquote("min-width: #{$screen-md-min}");
+$swordfish: unquote("min-width: #{$screen-sm-min}");
+
+@mixin media($mq) {
+  @media($mq){
+    @content;
+  }
+}
