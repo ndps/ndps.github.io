@@ -20,7 +20,45 @@
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-    "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap"
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/variables",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/normalize",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/print",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/glyphicons",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/scaffolding",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/type",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/code",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/grid",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/tables",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/forms",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/buttons",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/component-animations",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/dropdowns",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/button-groups",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/input-groups",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navs",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/navbar",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/breadcrumbs",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/pagination",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/pager",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/labels",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/badges",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/jumbotron",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/thumbnails",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/alerts",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/progress-bars",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/media",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/list-group",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/panels",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-embed",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/wells",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/close",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/modals",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/tooltip",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/popovers",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/carousel",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/utilities",
+  "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/responsive-utilities"
 ;
 body {
   padding-top: 50px;

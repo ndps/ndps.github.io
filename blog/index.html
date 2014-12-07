@@ -1,0 +1,21 @@
+---
+layout: blog
+title: Blog
+permalink: /blog/
+page_order: 3
+---
+<div class="blog">
+  <section class="post-list">
+    {% for post in site.posts %}
+      <article>
+        <h1><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{{ post.date | date: "%b %-d, %Y" }}</small></h1>
+        <div class="excerpt">
+          {{ post.excerpt }}
+        </div>
+        <div class="clearfix">
+          <a class="btn btn-primary pull-right">Read More</a>
+        </div>
+      </article>
+    {% endfor %}
+  </section>
+</div>
