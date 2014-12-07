@@ -2,8 +2,9 @@
   height: 50%;
   text-align: center;
   background-image: url('/img/dog-hero.jpg');
-  background-size: 100%;
+  background-size: cover;
   background-position: center 10%;
+  background-repeat: no-repeat;
   .filter{
     background: rgba(#e2f2f9, .8);
     height: 100%;
