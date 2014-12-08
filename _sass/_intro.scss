@@ -3,13 +3,13 @@
   text-align: center;
   background-image: url('/img/dog_hero.jpg');
   background-size: cover;
-  background-position: center 10%;
+  background-position: 0;
   background-repeat: no-repeat;
   .filter{
     height: 100%;
   }
   .container{
-    background: rgba(#fff, .73);
+    // background: rgba(#fff, .73);
     height: 60%;
     width: 100%;
     padding: 2% 0;
@@ -21,17 +21,21 @@
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
-  width: 75%;
+  // width: 75%;
+  width: 50%;
   height: 90%;
-  margin: auto;
+  margin: 0 0 0 10%;
+  // left: 50%;
+  // position: relative;
   @include media($whale){
-    width: 50%;
   }
 }
 .slogan{
-  padding: 10px;
   font-style: italic;
+  font-size: 16px;
+  padding: 20px 0;
   p{
-    // color: #fff;
+    text-align: center;
+    margin: 0;
   }
 }
