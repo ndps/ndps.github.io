@@ -21,8 +21,10 @@
   background-position: center center;
   width: 50%;
   height: 90%;
-  @include media($whale){
-  }
+  margin-left: 40px;
+  // @include media($shark){
+  //   margin-left: 0;
+  // }
 }
 .slogan{
   font-style: italic;
