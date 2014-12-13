@@ -10,7 +10,6 @@
   }
   .container{
     height: 60%;
-    width: 100%;
     padding: 2% 0;
   }
 }
@@ -22,7 +21,6 @@
   background-position: center center;
   width: 50%;
   height: 90%;
-  margin: 0 0 0 10%;
   @include media($whale){
   }
 }
