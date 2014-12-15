@@ -1,0 +1,37 @@
+.fancy_title{
+  background: lighten($brand-primary, 20%);
+  text-align: center;
+  height: 20%;
+  min-height: 178px;
+  margin-bottom: 30px;
+  padding: 70px 30px;
+  h1{
+    font-size: 50px;
+  }
+  h2{
+    font-size: 20px;
+    margin-top: 0;
+    color: lighten($text-color, 10%);
+  }
+  &.description{
+    text-align: left;
+    height: 40%;
+    min-height: 308px;
+  }
+  &.page-image{
+    background-size: cover;
+    background-color: transparent;
+    background-position: center;
+    color: #fff;
+  }
+}
+.post .fancy_title{
+  text-align: left;
+  height: 40%;
+  min-height: 308px;
+  &.page-image{
+    h2{
+      color: lighten($text-color, 50%);
+    }
+  }
+}

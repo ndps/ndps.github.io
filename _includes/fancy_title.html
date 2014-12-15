@@ -1,6 +1,14 @@
-<header class="jumbotron fancy_title">
-  <div class="container">
-    <h1>{{ site.title }} <small>{{ page.title }}</small></h1>
-    <p>{{ page.description }}</p>
+<header class="fancy_title {% if page.description %} description{% endif %}{% if page.image %} page-image{% endif %}" {% if page.image %}style='background-image: url(/img/{{ page.image }})'{% endif %}>
+  <div class="container vertical-shift">
+    <div class="col-md-8 col-md-offset-2">
+      <h1>{{ page.title }}</h1>
+      <h2>{{ page.date | date: "%b %-d, %Y"}}</h2>
+      {% if page.description %}
+        <p>{{ page.description }}</p>
+      {% endif %}
+      {% if page.social %}
+        {% include social.html %}
+      {% endif %}
+    </div>
   </div>
 </header>

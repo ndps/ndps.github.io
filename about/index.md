@@ -1,12 +1,10 @@
 ---
 layout: page
-title: About
+title: About us
 permalink: /about/
 page_order: 2
+description: We currently serve residents of downtown St. Paul, Cathedral Hill, and nearby areas.
+image: about.jpg
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Next Door Pet Sitters LLC is run and owned by Pam Nesham. Pam is trained and certified as a professional pet sitter by the National Association for Professional Pet Sitters (NAPPS) whose curriculum includes first aid training from the American Red Cross. She is a proud pet parent of a classic tabby cat named Tillie.

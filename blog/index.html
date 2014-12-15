@@ -3,7 +3,9 @@ layout: blog
 title: Blog
 permalink: /blog/
 page_order: 3
-description: This is your blog.
+image: blog.jpg
+description: Looking for cute pictures of pets and useful information on pet parenting?
+social: true
 ---
 <div class="blog">
   <section class="post-list">
@@ -14,7 +16,7 @@ description: This is your blog.
           {{ post.excerpt }}
         </div>
         <div class="clearfix">
-          <a class="btn btn-primary pull-right">Read More</a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary pull-right">Read More</a>
         </div>
       </article>
     {% endfor %}

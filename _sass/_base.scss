@@ -13,3 +13,9 @@ body{
   position: relative;
   top: 50%;
 }
+.list-group-title{
+  background: #eee;
+}
+thead{
+  background: lighten($brand-primary, 30%);
+}

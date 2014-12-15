@@ -1,0 +1,10 @@
+.services{
+  img{
+    width: 100%;
+  }
+  .caption{
+    @include media($shark){
+      min-height: 220px;
+    }
+  }
+}

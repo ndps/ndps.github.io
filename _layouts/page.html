@@ -6,7 +6,7 @@ layout: page
 
   {% include head.html %}
 
-  <body class="blog">
+  <body class="page">
     {% include header.html %}
     {% include fancy_title.html %}
     <div class="container">
@@ -15,7 +15,7 @@ layout: page
             {{ content }}
           </div>
           <div class="col-lg-4">
-
+            {% include contact_info.html %}
           </div>
         </div>
     </div>
