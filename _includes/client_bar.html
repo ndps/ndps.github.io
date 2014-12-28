@@ -1,8 +1,22 @@
 {% if page.carousel_images %}
   {% for img in page.carousel_images %}
     <div>
-      <a href="/img/clients/{{ img.src }}" data-title="{{ img.alt }}" data-lightbox="our-clients">
-        <img src="/img/clients/{{ img.src }}" alt="{{ img.alt }}" />
+      <a href="/img/clients/{{ img.src }}"
+        {% if img.alt %}
+          data-title="
+          {% if img.caption %}
+            {{ img.caption }}
+          {% else %}
+            {{ img.alt }}
+          {% endif %}"
+        {% endif %}
+        data-lightbox="our-clients"
+      >
+        <img src="/img/clients/{{ img.src }}"
+          {% if img.alt %}
+            alt="{{ img.alt }}"
+          {% endif %}
+        />
       </a>
     </div>
   {% endfor %}
