@@ -15,6 +15,7 @@
     "tests"
   ],
   "devDependencies": {
-    "bootstrap-sass-official": "~3.3.1"
+    "bootstrap-sass-official": "~3.3.1",
+    "lightbox2": "~2.7.1"
   }
 }

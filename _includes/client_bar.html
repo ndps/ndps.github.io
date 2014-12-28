@@ -1,0 +1,9 @@
+{% if page.carousel_images %}
+  {% for img in page.carousel_images %}
+    <div>
+      <a href="/img/clients/{{ img.src }}" data-lightbox="our-clients">
+        <img src="/img/clients/{{ img.src }}" alt="{{ img.alt }}" />
+      </a>
+    </div>
+  {% endfor %}
+{% endif %}
