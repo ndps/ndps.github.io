@@ -13,6 +13,10 @@
     margin-top: 0;
     color: lighten($text-color, 10%);
   }
+  a{
+    color: $text-color;
+    text-decoration: underline;
+  }
   &.description{
     text-align: left;
     height: 40%;
@@ -23,12 +27,17 @@
     background-color: transparent;
     background-position: center;
     color: #fff;
+
+    a{
+      color: $link-color;
+    }
   }
 }
 .post .fancy_title{
   text-align: left;
   height: 40%;
   min-height: 308px;
+
   &.page-image{
     h2{
       color: lighten($text-color, 50%);
