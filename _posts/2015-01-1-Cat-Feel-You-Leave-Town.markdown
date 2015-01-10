@@ -16,13 +16,13 @@ Most cats have a need for companionship and love on a daily basis. Even the scar
 Stress and boredom can have many adverse effects on our feline friends. Think about all the things that can happen while you are gone:
 
 
-  A bored kitty might decide to shred your new drapes, or “decorate” your favorite armchair with claw marks.  Not something you want to come home to after a long day of travel. 
+  -A bored kitty might decide to shred your new drapes, or “decorate” your favorite armchair with claw marks.  Not something you want to come home to after a long day of travel. 
 
-  Stress can cause your cat to stop eating. This may seem benign, but cats have very unique digestive systems. When they do not eat for more than a few days, they can develop serious liver problems, which can be fatal. 
+  -Stress can cause your cat to stop eating. This may seem benign, but cats have very unique digestive systems. When they do not eat for more than a few days, they can develop serious liver problems, which can be fatal. 
  
-  Stress can also cause litter box issues for cats. This can cause inflammation in the bladder, which results in pain during urination. Cats begin to urinate outside the box, because they associate the litter box with pain. 
+ -Stress can also cause litter box issues for cats. This can cause inflammation in the bladder, which results in pain during urination. Cats begin to urinate outside the box, because they associate the litter box with pain. 
 
-  Male cats are particularly prone to a life-threatening urinary blockage. This can happen suddenly, without any prior symptoms. If your kitty was left alone for more than 24 hours, and happened to develop this condition, there could be deadly consequences. 
+  -Male cats are particularly prone to a life-threatening urinary blockage. This can happen suddenly, without any prior symptoms. If your kitty was left alone for more than 24 hours, and happened to develop this condition, there could be deadly consequences. 
 
 Don’t forget about your kitty’s feelings. Think about how sad she may be without her people around. She will miss interacting with her favorite humans while you are away.
 
