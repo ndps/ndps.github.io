@@ -2,7 +2,7 @@
 layout: post
 title:  "What Happens to Your Cat When You Leave Town?"
 date:   2015-01-10
-categories: cats, vacations
+categories: Cats
 ---
 
 Everyone knows that dogs desire the company of their pack, and cats are independent creatures with no interest in socializing. Right?
